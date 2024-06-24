@@ -16,7 +16,6 @@ import org.springframework.stereotype.Controller;
 @SpringBootApplication
 @ComponentScan 
 public class HelloWorldApplication {
-	
 	/*
 	  SpringApplication.run 안에서 일어나는 일 : Bootstrap 
 	  
