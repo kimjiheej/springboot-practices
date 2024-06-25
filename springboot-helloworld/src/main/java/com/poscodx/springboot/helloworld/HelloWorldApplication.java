@@ -9,12 +9,10 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Controller;
 
 /** 
-  
     1. 스프링 애플리케이션의 부트스트래핑 역할을 한다 : Bootstrapping 
     2. 설정 클래스 : Configuration Class 
  */
 @SpringBootApplication
-@ComponentScan 
 public class HelloWorldApplication {
 	/*
 	  SpringApplication.run 안에서 일어나는 일 : Bootstrap 
@@ -31,7 +29,6 @@ public class HelloWorldApplication {
 	   
 	   
 	 */
-	
 	 public static void main(String[] args) {
 	        try (ConfigurableApplicationContext context = SpringApplication.run(HelloWorldApplication.class, args)) {
 	            // 애플리케이션 실행 코드
