@@ -1,4 +1,4 @@
-package ex01;
+package ex04;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
@@ -9,17 +9,14 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
+import ex04.component.MyComponent;
+
 /*
   Springboot Test Integration 
   
-  
-   Error : 
-   Spring Boot Test Integration(@SpringBootTest) 에서는 
-   @Configuration 을 달고 있는 설정 클래스를 스캔하지 못한다. 
-   error 
  */
 @SpringBootTest
-public class MyApplicationTest02 {
+public class MyApplicationTest {
 	
 	@Autowired
 	private MyComponent myComponent;
